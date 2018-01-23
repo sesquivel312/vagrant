@@ -1,0 +1,14 @@
+{
+	"builders": [
+		{
+			"type": "vmware-vmx",
+			"source_path": "C:\\Users\\steve\\Documents\\Virtual Machines\\centos-server-7.4\\centos-server-7.4.vmx",
+			"ssh_username": "root",
+			"ssh_password": "pp10tn9ec98f9go8",
+			"shutdown_command": "shutdown -P now"
+		}
+	],
+
+	"post-processors": ["vagrant"]
+	
+}
